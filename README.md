@@ -9,4 +9,13 @@
     $('#item-name').suggestSku($('#item-code'));
   });
 </script>
+
+<!-- Example HTML input -->
+<p>Item Name
+  <input type="text" id="name">
+</p>
+<p>SKU
+  <input type="text" id="code">
+</p>
+
 ```

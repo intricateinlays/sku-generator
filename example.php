@@ -1,8 +1,14 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="client.js"></script>
+<script src="index.js"></script>
 <script>
-  var name = 'arizona ring green small';
-  SkuGenerator.generate(name, function(data) {
-    console.log(data);
+  $(function() {
+    $('#name').suggestSku($('#code'));
   });
 </script>
+
+<p>Item Name
+  <input type="text" id="name">
+</p>
+<p>SKU
+  <input type="text" id="code">
+</p>

@@ -1,5 +1,5 @@
-var baseUrl = 'http://localhost:8888/intricateinlays/sku-generator';
-// var baseUrl = 'http://sku-generator.intricateinlays.com';
+// var baseUrl = 'http://localhost:8888/intricateinlays/sku-generator';
+var baseUrl = 'http://sku-generator.intricateinlays.com';
 
 $.fn.suggestSku = function(code) {
 	$(this).each(function(i, e) {
